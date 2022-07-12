@@ -1,11 +1,16 @@
-import NotificationButton from "./componentes/NotificationButton"
-
+import SalesCard from "./componentes/SalesCard"
+import Header from "./componentes/Header"
 function App() {
   return (
     <>
-      <h1>Vai Corinthians</h1>
-      <NotificationButton />
-      
+      <Header />
+      <main>
+        <section id="sales">
+          <div class="dsmeta-container">
+            <SalesCard />
+          </div>
+        </section>
+      </main>
     </>
   )
 }
