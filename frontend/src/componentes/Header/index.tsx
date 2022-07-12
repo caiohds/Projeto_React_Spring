@@ -4,12 +4,12 @@ function Header() {
     return (
         <>
             <header>
-                <div class="dsmeta-logo-container">
+                <div className="dsmeta-logo-container">
                     <img src={logo} alt="DSMeta" />
                     <h1>DSMeta</h1>
                     <p>
                         Desenvolvido por
-                        <a href="https://www.instagram.com/devsuperior.ig">@devsuperior.ig</a>
+                        <a href="https://www.linkedin.com/in/caio-henrique-b3a9a0212/"> Caio Henrique</a>
                     </p>
                 </div>
             </header>
